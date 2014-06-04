@@ -1,0 +1,31 @@
+{
+  "name": "grunt-examle",
+  "description": "Using grunt in context of rails apps",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-imagemin": "*",
+    "imagemin-mozjpeg": "^0.1.2",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-bower-task": "^0.3.4",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-connect": "^0.7.1",
+    "grunt-contrib-compress": "^0.9.1",
+    "grunt-cache-bust": "^0.3.6",
+    "grunt-hashmap": "^0.1.5",
+    "grunt-cssurlrev": "^0.1.2",
+    "load-grunt-tasks": "^0.4.0",
+    "grunt-s3": "^0.2.0-alpha.3",
+    "load-grunt-config": "^0.9.2",
+    "karma": "^0.12.16",
+    "grunt-karma": "^0.8.3",
+    "karma-jasmine": "^0.1.5",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-mocha-reporter": "^0.2.5",
+    "karma-story-reporter": "^0.2.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "grunt-example",
+  "version": "0.0.1",
+  "dependencies": {
+     "jquery": "latest",
+     "bootstrap": "latest"
+  },
+  "exportsOverride": {
+    "jquery": {
+      "javascripts": "dist/jquery.js"
+    },
+    "bootstrap": {
+      "stylesheets": [
+        "dist/css/bootstrap-theme.css",
+        "dist/css/bootstrap.css"
+      ],
+      "javascripts" : "dist/js/bootstrap.js",
+      "fonts": "dist/fonts/*.*"
+    }
+  }
+}

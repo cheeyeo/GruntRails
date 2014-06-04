@@ -1,0 +1,15 @@
+{
+  "source":{
+    "javascripts": "app/assets/javascripts",
+    "images": "app/assets/images",
+    "stylesheets": "app/assets/stylesheets",
+    "fonts": "app/assets/fonts"
+  },
+  "dist":{
+    "javascripts": "dist/javascripts",
+    "stylesheets": "dist/stylesheets",
+    "main": "dist",
+    "images": "dist/images",
+    "fonts": "dist/fonts"
+  }
+}

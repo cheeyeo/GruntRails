@@ -1,0 +1,16 @@
+dev:
+  - 'bower'
+  - 'karma:unit:start'
+  - 'connect'
+  - 'watch'
+deploy:
+  - 'bower'
+  - 'concat'
+  - 'uglify'
+  - 'imagemin'
+  - 'cssmin'
+  - 'copy'
+  - 'clean'
+  - 'hashmap'
+  - 'cssurlrev'
+  - 's3'
