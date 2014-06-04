@@ -19,10 +19,16 @@ module.exports = function (config) {
 
     reporters: ['dots'],
 
-    autoWatch: true,
+    //autoWatch: true,
 
     colors: true,
 
-    captureTimeout: 5000
+    captureTimeout: 5000,
+
+    plugins: [
+      'karma-jasmine',
+      'karma-chrome-launcher',
+      'karma-phantomjs-launcher'
+    ]
   });
 };

@@ -5,6 +5,7 @@ dev:
   - 'watch'
 deploy:
   - 'bower'
+  - 'karma:continuous:start'
   - 'concat'
   - 'uglify'
   - 'imagemin'
